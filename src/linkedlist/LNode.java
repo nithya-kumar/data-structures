@@ -1,10 +1,8 @@
 package linkedlist;
 
-public class LNode {
-	int data;
-	LNode next;
-	LNode (int x) {
-		data = x;
-		next = null;
-	}
+public class LNode
+{
+    int val;
+    LNode next;
+    LNode(int x) { val = x; }
 }
